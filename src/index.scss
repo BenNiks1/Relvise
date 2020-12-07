@@ -69,8 +69,11 @@ body {
   background-size: cover;
   padding-top: 184px;
   padding-bottom: 191px;
+  margin-bottom: 211px;
   &__inner {
+    position: relative;
     color: #fff;
+
     &-title {
       max-width: 509px;
       margin-bottom: 35px;
@@ -118,6 +121,124 @@ body {
 /*testimonials
 =========================================*/
 
-.testimonials{
+.testimonials {
+  position: absolute;
+  bottom: -325px;
   display: flex;
+  &__item {
+    max-width: 328px;
+    padding: 35px 40px;
+    margin-right: 30px;
+    background: #fff;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      background: #0d5c63;
+      transition: 0.2s;
+      i {
+        svg {
+          path {
+            stroke: #fff;
+            transition: 0.2s;
+          }
+        }
+      }
+      h2 {
+        color: #fff;
+        transition: 0.2s;
+      }
+      p {
+        color: #fff;
+        transition: 0.2s;
+      }
+    }
+    &-icon {
+      margin-bottom: 10px;
+    }
+    &-title {
+      max-width: 233px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0.1px;
+      color: #252b42;
+    }
+    &-text {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      color: #737373;
+    }
+  }
+}
+
+/*features
+=========================================*/
+
+.features {
+  margin-bottom: 205px;
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    &-title {
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 57px;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+    }
+    &-text {
+      max-width: 511px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      color: #fff;
+    }
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-right: 38px;
+    max-width: 240px;
+    width: 100%;
+    background: #fff;
+    &:last-child {
+      margin-right: 0;
+    }
+    &-icon {
+      margin-bottom: 10px;
+    }
+    &-numbers {
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 57px;
+      letter-spacing: 0.2px;
+      color: #252b42;
+    }
+    &-text {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.1px;
+      color: #737373;
+    }
+  }
 }
