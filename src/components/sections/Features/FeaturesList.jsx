@@ -1,9 +1,10 @@
 import React from "react";
+import {featuresList} from "../../../assets/db";
 
-const FeaturesList = ({ featuresItem }) => {
+const FeaturesList = () => {
   return (
     <ul className="features__list">
-      {featuresItem.map((item) => (
+      {featuresList.map((item) => (
         <li className="features__item">
           <i className="features__item-icon">{item.icon}</i>
           <span className="features__item-numbers">{item.numbers}</span>

@@ -1,3 +1,7 @@
+$mainTextColor: #fff;
+$titleSize: 40px;
+$letterSpacing: 0.2px;
+
 *,
 *::after,
 *::before {
@@ -47,8 +51,8 @@ body {
         font-weight: 600;
         font-size: 14px;
         line-height: 24px;
-        letter-spacing: 0.2px;
-        color: #fff;
+        letter-spacing: $letterSpacing;
+        color: $mainTextColor;
         text-decoration: none;
       }
     }
@@ -72,7 +76,7 @@ body {
   margin-bottom: 211px;
   &__inner {
     position: relative;
-    color: #fff;
+    color: $mainTextColor;
 
     &-title {
       max-width: 509px;
@@ -80,7 +84,7 @@ body {
       font-weight: 800;
       font-size: 58px;
       line-height: 80px;
-      letter-spacing: 0.2px;
+      letter-spacing: $letterSpacing;
     }
     &-subtitle {
       max-width: 376px;
@@ -88,7 +92,7 @@ body {
       font-weight: 500;
       font-size: 20px;
       line-height: 30px;
-      letter-spacing: 0.2px;
+      letter-spacing: $letterSpacing;
     }
     &-buttons {
       button {
@@ -103,7 +107,7 @@ body {
         font-size: 14px;
         line-height: 28px;
         letter-spacing: 0.2px;
-        color: #fff;
+        color: $mainTextColor;
         cursor: pointer;
         &:hover {
           background: #ff7b47;
@@ -169,7 +173,7 @@ body {
       font-weight: 500;
       font-size: 14px;
       line-height: 20px;
-      letter-spacing: 0.2px;
+      letter-spacing: $letterSpacing;
       color: #737373;
     }
   }
@@ -189,25 +193,24 @@ body {
     &-title {
       margin-bottom: 10px;
       font-weight: bold;
-      font-size: 40px;
+      font-size: $titleSize;
       line-height: 57px;
-      letter-spacing: 0.2px;
-      color: #ffffff;
+      letter-spacing: $letterSpacing;
+      color: $mainTextColor;
     }
     &-text {
       max-width: 511px;
       font-weight: 500;
       font-size: 14px;
       line-height: 20px;
-      letter-spacing: 0.2px;
-      color: #fff;
+      letter-spacing: $letterSpacing;
+      color: $mainTextColor;
     }
   }
   &__list {
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
   &__item {
     display: flex;
@@ -229,7 +232,7 @@ body {
       font-weight: bold;
       font-size: 40px;
       line-height: 57px;
-      letter-spacing: 0.2px;
+      letter-spacing: $letterSpacing;
       color: #252b42;
     }
     &-text {
@@ -238,6 +241,66 @@ body {
       line-height: 24px;
       text-align: center;
       letter-spacing: 0.1px;
+      color: #737373;
+    }
+  }
+}
+
+/*advice
+=========================================*/
+.advice {
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    &-title {
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: $titleSize;
+      line-height: 57px;
+      letter-spacing: $letterSpacing;
+      color: $mainTextColor;
+    }
+    &-text {
+      max-width: 511px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: $letterSpacing;
+      color: $mainTextColor;
+    }
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+  &__item {
+    background: #fff;
+    margin-right: 38px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &-inner {
+      padding: 30px;
+    }
+    &-title {
+      max-width: 135px;
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: #252b42;
+    }
+    &-text {
+      max-width: 160px;
+      margin-bottom: 30px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: $letterSpacing;
       color: #737373;
     }
   }
