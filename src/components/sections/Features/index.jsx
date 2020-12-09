@@ -1,15 +1,16 @@
 import React from "react";
 import FeaturesList from "./FeaturesList";
+import { featuresIntro } from "../../../assets/db";
 
-const Features = ({ featuresIntro }) => {
+const Features = () => {
   return (
     <section className="features container">
-      <div className="feature__intro-wrapper">
+      <div className="section__intro">
         {featuresIntro.map((item) => (
-          <div className="features__intro">
-            <h2 className="features__intro-title">{item.title}</h2>
-            <p className="features__intro-text">{item.text}</p>
-          </div>
+          <React.Fragment>
+            <h2 className="section__intro-title">{item.title}</h2>
+            <p className="section__intro-text">{item.text}</p>
+          </React.Fragment>
         ))}
       </div>
       <FeaturesList />

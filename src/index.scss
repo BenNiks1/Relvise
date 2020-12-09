@@ -25,6 +25,33 @@ body {
   margin: 0 auto;
   max-width: 1046px;
 }
+/*section__intro
+=========================================*/
+.section {
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    &-title {
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: $titleSize;
+      line-height: 57px;
+      letter-spacing: $letterSpacing;
+      color: $mainTextColor;
+    }
+    &-text {
+      max-width: 511px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: $letterSpacing;
+      color: $mainTextColor;
+    }
+  }
+}
 /*header
 =========================================*/
 .header {
@@ -184,29 +211,7 @@ body {
 
 .features {
   margin-bottom: 205px;
-  &__intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 50px;
-    &-title {
-      margin-bottom: 10px;
-      font-weight: bold;
-      font-size: $titleSize;
-      line-height: 57px;
-      letter-spacing: $letterSpacing;
-      color: $mainTextColor;
-    }
-    &-text {
-      max-width: 511px;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 20px;
-      letter-spacing: $letterSpacing;
-      color: $mainTextColor;
-    }
-  }
+
   &__list {
     display: flex;
     align-items: center;
@@ -249,29 +254,8 @@ body {
 /*advice
 =========================================*/
 .advice {
-  &__intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 50px;
-    &-title {
-      margin-bottom: 10px;
-      font-weight: bold;
-      font-size: $titleSize;
-      line-height: 57px;
-      letter-spacing: $letterSpacing;
-      color: $mainTextColor;
-    }
-    &-text {
-      max-width: 511px;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 20px;
-      letter-spacing: $letterSpacing;
-      color: $mainTextColor;
-    }
-  }
+  margin-bottom: 180px;
+
   &__list {
     display: flex;
     justify-content: center;
@@ -303,5 +287,68 @@ body {
       letter-spacing: $letterSpacing;
       color: #737373;
     }
+  }
+}
+
+/*about
+=========================================*/
+
+.about {
+  margin-bottom: 187px;
+  &__inner {
+    display: flex;
+  }
+  &__description {
+    max-width: 333px;
+    margin-left: 120px;
+    &-title {
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: $titleSize;
+      line-height: 57px;
+      letter-spacing: $letterSpacing;
+      color: $mainTextColor;
+    }
+    &-text {
+      max-width: 511px;
+      margin-bottom: 50px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: $letterSpacing;
+      color: $mainTextColor;
+    }
+  }
+  &__list {
+    .list__item {
+      display: flex;
+      &-icon {
+        margin-right: 20px;
+      }
+      &-title {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: $mainTextColor;
+      }
+      &-text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: $letterSpacing;
+        color: $mainTextColor;
+      }
+    }
+  }
+}
+
+/*clients
+=========================================*/
+.clients {
+  margin-bottom: 71px;
+  &__list {
+    display: flex;
+    justify-content: space-around;
   }
 }

@@ -1,21 +1,21 @@
 import React from "react";
-import AdviceList from './AdviceList'
+import AdviceList from "./AdviceList";
+import { adviceIntro } from "../../../assets/db";
 
-
-const Advice = ({ adviceIntro }) => {
+const Advice = () => {
   return (
     <section className="advice container">
-      <div className="advice__intro-wrapper">
+      <div className="section__intro">
         {adviceIntro.map((item) => (
-          <div className="advice__intro">
-            <h2 className="advice__intro-title">{item.title}</h2>
-            <p className="advice__intro-text">{item.text}</p>
-          </div>
+          <React.Fragment>
+            <h2 className="section__intro-title">{item.title}</h2>
+            <p className="section__intro-text">{item.text}</p>
+          </React.Fragment>
         ))}
       </div>
-      <AdviceList/>
+      <AdviceList />
     </section>
   );
 };
 
-export default Advice
+export default Advice;
