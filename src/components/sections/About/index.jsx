@@ -1,18 +1,12 @@
 import React from "react";
+import SectionIntro from '../SectionIntro'
 import AboutList from "./AboutList";
 import { aboutIntro } from "../../../assets/db";
 
 const About = () => {
   return (
     <section className="about container">
-      <div className="section__intro">
-        {aboutIntro.map((item) => (
-          <React.Fragment>
-            <h2 className="section__intro-title">{item.title}</h2>
-            <p className="section__intro-text">{item.text}</p>
-          </React.Fragment>
-        ))}
-      </div>
+      <SectionIntro intro={aboutIntro}/>
       <div className="about__inner">
         <iframe
           width="600"

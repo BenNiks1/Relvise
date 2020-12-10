@@ -1,6 +1,6 @@
 import React from "react";
 import FooterList from "./FooterList";
-import FooterAd from "./FooterAd";
+import FooterCopyright from './FooterCopyright'
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
           <FooterList />
         </div>
       </div>
-      <FooterAd />
+      <FooterCopyright/>
     </footer>
   );
 };

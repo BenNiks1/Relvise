@@ -10,12 +10,10 @@ const MenuSvg = (props) => {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clipPath="url(#prefix__clip0)">
-        <path
-          d="M.572 0H23.43v2.286H.572V0zm5.715 5.714h17.142V8H6.287V5.714zm7.142 5.715h10v2.285h-10V11.43z"
-          fill="#fff"
-        />
-      </g>
+      <path
+        d="M.572 0H23.43v2.286H.572V0zm5.715 5.714h17.142V8H6.287V5.714zm7.142 5.715h10v2.285h-10V11.43z"
+        fill="#fff"
+      />
       <defs>
         <clipPath id="prefix__clip0">
           <path fill="#fff" d="M0 0h24v13.714H0z" />
@@ -72,4 +70,4 @@ const ShopSvg = (props) => {
   );
 };
 
-export {ShopSvg, SearchSvg, MenuSvg}
+export { ShopSvg, SearchSvg, MenuSvg };

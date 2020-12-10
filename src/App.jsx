@@ -7,7 +7,7 @@ import About from "./components/sections/About";
 import Clients from "./components/sections/Clients";
 import Newsletter from "./components/sections/Newsletter";
 import Contact from "./components/sections/Contact";
-import Footer from './components/Footer'
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Clients />
       <Newsletter />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
