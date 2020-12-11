@@ -6,7 +6,7 @@ const FooterList = () => {
   return (
     <ul className="footer__list">
       {footerList.map((item) => (
-        <li className="footer__item">
+        <li className="footer__item" key={item.id}>
           <p className="footer__item-title">{item.title}</p>
           <a href="/#" className="footer__item-link">
             {item.link1 ? (

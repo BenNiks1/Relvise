@@ -5,7 +5,7 @@ const ContactCards = () => {
   return (
     <ul className="contact__cards">
       {contactCards.map((item) => (
-        <li className="contact__cards-item">
+        <li className="contact__cards-item" key={item.id}>
           <div className="wrapper">
             <i>{item.icon}</i>
             <a href={item.firstContact} className="first-link">

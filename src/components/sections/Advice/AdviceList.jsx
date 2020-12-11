@@ -5,7 +5,7 @@ const AdviceList = () => {
   return (
     <ul className="advice__list">
       {adviceList.map((item) => (
-        <li className="advice__item">
+        <li className="advice__item" key={item.id}>
           <div className="advice__item-inner">
             <p className="advice__item-title">{item.title}</p>
             <p className="advice__item-text">{item.text}</p>

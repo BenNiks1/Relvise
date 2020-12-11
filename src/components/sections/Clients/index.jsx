@@ -6,7 +6,9 @@ const Clients = () => {
     <section className="clients container">
       <ul className="clients__list">
         {clients.map((item) => (
-          <li className="clients__list-item">{item.icon}</li>
+          <li className="clients__list-item" key={item.id}>
+            {item.icon}
+          </li>
         ))}
       </ul>
     </section>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import logo from "../../assets/img/logo.png";
 import { MenuSvg, SearchSvg, ShopSvg } from "./icons";
 
@@ -22,9 +22,9 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <SearchSvg className='header__search'/>
-      <ShopSvg className='header__shop'/>
-      <MenuSvg className='header__menu'/>
+      <SearchSvg className="header__search" />
+      <ShopSvg className="header__shop" />
+      <MenuSvg className="header__menu" />
     </header>
   );
 };
