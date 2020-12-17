@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Relvise/static/css/main.314f4767.chunk.css",
-    "main.js": "/Relvise/static/js/main.ba8a478b.chunk.js",
-    "main.js.map": "/Relvise/static/js/main.ba8a478b.chunk.js.map",
+    "main.js": "/Relvise/static/js/main.a94c907d.chunk.js",
+    "main.js.map": "/Relvise/static/js/main.a94c907d.chunk.js.map",
     "runtime-main.js": "/Relvise/static/js/runtime-main.940537ea.js",
     "runtime-main.js.map": "/Relvise/static/js/runtime-main.940537ea.js.map",
     "static/js/2.7c4db347.chunk.js": "/Relvise/static/js/2.7c4db347.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.940537ea.js",
     "static/js/2.7c4db347.chunk.js",
     "static/css/main.314f4767.chunk.css",
-    "static/js/main.ba8a478b.chunk.js"
+    "static/js/main.a94c907d.chunk.js"
   ]
 }
