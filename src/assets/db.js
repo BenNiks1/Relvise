@@ -36,7 +36,7 @@ const contactIntro = [
 
 const testimonials = [
   {
-    id: 1,
+    id: "CQH9mr4Uxe",
     icon: (
       <svg
         width="48"
@@ -65,7 +65,7 @@ const testimonials = [
     text: "We focus on ergonomics and meeting you where you work.",
   },
   {
-    id: 2,
+    id: 'hE5VYq8Fnd',
     icon: (
       <svg
         width="48"
@@ -94,7 +94,7 @@ const testimonials = [
     text: "Just type what's on your mind and we'll get you there.",
   },
   {
-    id: 3,
+    id: '4c-Rooe3Qq',
     icon: (
       <svg
         width="48"
@@ -126,7 +126,7 @@ const testimonials = [
 
 const featuresList = [
   {
-    id: 1,
+    id: 'E53WLT2FIw',
     icon: (
       <svg
         width="49"
@@ -187,7 +187,7 @@ const featuresList = [
     text: "Business & Finance",
   },
   {
-    id: 2,
+    id: 'EETNYSSOkQ',
     icon: (
       <svg
         width="49"
@@ -218,7 +218,7 @@ const featuresList = [
     text: "Travel & Aviation",
   },
   {
-    id: 3,
+    id: '31QDXzOlTL',
     icon: (
       <svg
         width="49"
@@ -249,7 +249,7 @@ const featuresList = [
     text: "Consumer Products",
   },
   {
-    id: 4,
+    id: 'T8FQYQXNn2',
     icon: (
       <svg
         width="49"
@@ -293,26 +293,26 @@ const featuresList = [
 
 const adviceList = [
   {
-    id: 1,
+    id: '7TlyWdLQn9',
     title: "A single source of truth",
     text:
       "Newton thought that light was made up of particles, but then it was discovered",
     img: "/advice1.png",
   },
   {
-    id: 2,
+    id: 'zVoSKO6War',
     title: "Fastest way to organize",
     text: "“Quantum mechanics” is the description of the behaviour of matter",
     img: "/advice2.png",
   },
   {
-    id: 3,
+    id: 'U1gENRo28h',
     title: "Fastest way to take action",
     text: "They describe a universe consisting of bodies moving",
     img: "/advice3.png",
   },
   {
-    id: 4,
+    id: '4COtuQJ2W0',
     title: "Work better together",
     text: "They finally obtained a consistent description of the behaviour ",
     img: "/advice4.png",
@@ -342,7 +342,7 @@ const aboutList = [
     text: "Things on a very small scale ...",
   },
   {
-    id: 2,
+    id: 'zwqECwbn7m',
     icon: (
       <svg
         width="32"
@@ -371,7 +371,7 @@ const aboutList = [
 
 const clients = [
   {
-    id: 1,
+    id: 'kGSsuaSx86',
     icon: (
       <svg
         width="153"
@@ -406,7 +406,7 @@ const clients = [
     ),
   },
   {
-    id: 2,
+    id: 'm2DxnaNkCL',
     icon: (
       <svg
         width="146"
@@ -433,7 +433,7 @@ const clients = [
     ),
   },
   {
-    id: 3,
+    id: '6rXuglHb5W',
     icon: (
       <svg
         width="152"
@@ -450,7 +450,7 @@ const clients = [
     ),
   },
   {
-    id: 4,
+    id: 'CW4whxXy9Z',
     icon: (
       <svg
         width="151"
@@ -485,7 +485,7 @@ const clients = [
     ),
   },
   {
-    id: 5,
+    id: 'vMRaW_2GLB',
     icon: (
       <svg
         width="151"
@@ -520,7 +520,7 @@ const clients = [
     ),
   },
   {
-    id: 6,
+    id: 'pO-AXEVXbP',
     icon: (
       <svg
         width="147"
@@ -558,7 +558,7 @@ const clients = [
 
 const contactCards = [
   {
-    id: 1,
+    id: '0yi0WnzH6Q',
     icon: (
       <svg
         width="73"
@@ -614,7 +614,7 @@ const contactCards = [
     btn: "Submit Request",
   },
   {
-    id: 3,
+    id: 'vjrqO4cDBp',
     icon: (
       <svg
         width="70"
@@ -638,7 +638,7 @@ const contactCards = [
 
 const footerList = [
   {
-    id: 1,
+    id: 'G3wy7X7o9G',
     title: "Company Info",
     link1: "About Us",
     link2: "Carrier",
@@ -646,7 +646,7 @@ const footerList = [
     link4: "Blog",
   },
   {
-    id: 2,
+    id: 'dhfvYfyIwU',
     title: "Legal",
     link1: "About Us",
     link2: "Carrier",
@@ -654,7 +654,7 @@ const footerList = [
     link4: "Blog",
   },
   {
-    id: 3,
+    id: 'A_mRThpwnZ',
     title: "Features",
     link1: "Business Marketing",
     link2: "User Analytic",
@@ -662,7 +662,7 @@ const footerList = [
     link4: "Unlimited Support",
   },
   {
-    id: 4,
+    id: 'O7d2yVT3i8',
     title: "Resources",
     link1: "IOS & Android",
     link2: "Watch a Demo",
@@ -670,7 +670,7 @@ const footerList = [
     link4: "API",
   },
   {
-    id: 5,
+    id: 'X6CvYJBf3C',
     title: "Get In Touch",
     phone: "(480) 555-0103",
     address: "4517 Washington Ave.",

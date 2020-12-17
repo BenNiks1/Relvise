@@ -1,4 +1,6 @@
 $mainTextColor: #fff;
+$newsletterBorder:#e6e6e6;
+$descriptionTextColor:#737373;
 $contactTextColot: #252b42;
 $altBackgroundColor: #17213c;
 $buttonsColor: #ff7b47;
@@ -300,7 +302,7 @@ body {
       font-size: 14px;
       line-height: 20px;
       letter-spacing: $letterSpacing;
-      color: #737373;
+      color:$descriptionTextColor;
     }
   }
 }
@@ -372,7 +374,7 @@ body {
       line-height: 24px;
       text-align: center;
       letter-spacing: 0.1px;
-      color: #737373;
+      color: $descriptionTextColor;
     }
   }
 }
@@ -440,7 +442,7 @@ body {
       font-size: 14px;
       line-height: 20px;
       letter-spacing: $letterSpacing;
-      color: #737373;
+      color:$descriptionTextColor;
     }
   }
 }
@@ -662,7 +664,7 @@ body {
       padding: 15px 20px;
       border-radius: 5px 0 0 5px;
       background: #f9f9f9;
-      border: 1px solid #e6e6e6;
+      border: 1px solid $newsletterBorder;
       &::placeholder {
         font-size: 14px;
         line-height: 28px;
@@ -674,7 +676,7 @@ body {
       padding: 9px 22px;
 
       background: $buttonsColor;
-      border: 1px solid #e6e6e6;
+      border: 1px solid $newsletterBorder;
       border-radius: 0px 5px 5px 0px;
 
       font-size: 14px;
